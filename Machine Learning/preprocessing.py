@@ -177,6 +177,16 @@ def build_sender_features(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def preprocess_mail_content(text: str) -> str:
+    """
+    Preprocess email content by performing the following steps:
+    1. Delete HTML tags.
+    2. Replace URLs and email addresses with placeholders.
+    3. Convert text to lowercase.
+    4. Remove punctuation.
+    5. Tokenize the text into words.
+    6. Remove stop words.
+    7. Lemmatize the words.
+    """
     # Handle potential NaN values by converting to empty string
     if pd.isna(text):
         text = ""
