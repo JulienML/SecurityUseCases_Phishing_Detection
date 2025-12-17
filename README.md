@@ -57,8 +57,7 @@ Open and run `Deep Learning/DL Implementation.ipynb` to:
 - Compare performance across different DL architectures
 
 ### Comparing ML vs DL
-Both notebooks provide detailed metrics to compare:
-- Accuracy, Precision, Recall, F1-Score, AUC-ROC
+Both notebooks provide detailed metrics to compare Accuracy, Precision, Recall, F1-Score and AUC-ROC scores for each model.
 
 ## Results
 
