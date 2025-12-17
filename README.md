@@ -12,7 +12,7 @@ The goal is to evaluate which approach provides better performance for email sec
 ## Dataset
 
 The project uses the SpamAssassin public corpus dataset containing:
-- **4,827 emails** (3,900 legitimate, 927 spam)
+- 4,827 emails (3,900 legitimate, 927 spam)
 - Emails in raw text format with headers and body content
 - Stored in `data/SpamAssasin.csv`
 
